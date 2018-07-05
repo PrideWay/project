@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'segoe';
+  src: url('fonts/segoe-ui.eot');
+  src: url('fonts/segoe-ui.eot?#iefix') format('embedded-opentype'),
+  url('fonts/segoe-ui.woff') format('woff'),
+  url('fonts/segoe-ui.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'segoe';
+  src: url('fonts/segoe-ui-bold.eot');
+  src: url('fonts/segoe-ui-bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/segoe-ui-bold.woff') format('woff'),
+  url('fonts/segoe-ui-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'segoe';
+  src: url('fonts/segoe-ui-italic.eot');
+  src: url('fonts/segoe-ui-italic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/segoe-ui-italic.woff') format('woff'),
+  url('fonts/segoe-ui-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'playfair';
+  src: url('fonts/playfair-display-regular.eot');
+  src: url('fonts/playfair-display-regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/playfair-display-regular.woff') format('woff'),
+  url('fonts/playfair-display-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'segoe';
+  font-weight: normal;
+  font-size: 14px;
+  color: #3e3e3d;
+  line-height: 1.3;
+  background: #fff url(../img/bg/wall.jpg);
+}
+
+div {
+  box-sizing: border-box;
+
+  &:before, &:after {
+    clear: both;
+    display: block;
+    content: '';
+  }
+}
+
+.menu {
+
+  &__list {
+    width: 100%; /* Ширина основного блока меню */
+    height: 50px; /* Высота основного блока меню */
+    position: relative;
+    display: table;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: table-cell;
+    position: relative;
+    font-size: 22px;
+  }
+  &__link {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    color: #000;
+    &:hover {
+      color: #b00978;
+    }
+  }
+}
+
+.content {
+  width: 100%;
+  float: none;
+}
+
+.footer {
+  &__copy, &__creator {
+    float: left;
+    width: 50%;
+  }
+  &__creator {
+    text-align: right;
+  }
+}
+
+.col-md-4 {
+  border: 1px solid black;
+}
+
+.socials {
+  height: 78px;
+}
+
+.logo {
+  height: 78px;
+}
+
+.phone {
+  p {
+    font-style: italic;
+    font-size: 18px;
+    margin: 15px auto auto auto;
+  }
+  .aphone {
+    color: #27292b;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 30px;
+    background: url(../img/ico/phone_top.png) left 13px no-repeat;
+    span {
+      font-size: 21px;
+      color: #de33a1;
+    }
+  }
+}
