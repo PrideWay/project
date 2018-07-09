@@ -1,9 +1,9 @@
 <?php
 $atts = array(
-    'main'     => array(
+    'main' => array(
         'caption' => 'Главная',
     ),
-    'team'    => array(
+    'team' => array(
         'caption' => 'Наша команда',
     ),
     'galery' => array(
@@ -16,8 +16,8 @@ $atts = array(
         'caption' => 'Контакты',
     ),
 );
-echo menu( $atts );
+echo menu($atts);
 ?>
-
+</div>
 <div class="page">
     <div class="content <?php echo is_sidebar(); ?>">

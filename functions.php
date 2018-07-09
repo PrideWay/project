@@ -1,5 +1,5 @@
 <?php
-function init() {
+function portus() {
     if ( ! empty( $_GET['page'] ) ) {
         $p = $_GET['page'];
     } else {
