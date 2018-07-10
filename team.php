@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-sm-12  ">
                     <div class="block-content">
-                        <h4 class="uppercase ">barbershop hours</h4>
+                        <h4 class="uppercase ">Опыт:</h4>
                         <p>Monday - Saturday : 10am - 7pm<br>
                             Sunday : 10am - 5pm<br>
                         </p>
@@ -42,7 +42,7 @@
                 <div class="col-sm-12">
                     <div class="block-content">
                         <h4 class="uppercase">Студент</h4>
-                        <p class="mb-0">Руко-<br>как-то так</p>
+                        <p class="mb-0">Практикант<br>как-то так</p>
                     </div>
                 </div>
                 <div class="col-sm-8  col-sm-offset-2 ">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-sm-12  ">
                     <div class="block-content">
-                        <h4 class="uppercase ">barbershop hours</h4>
+                        <h4 class="uppercase ">Опыт:</h4>
                         <p>Monday - Saturday : 10am - 7pm<br>
                             Sunday : 10am - 5pm<br>
                         </p>
